@@ -1,0 +1,28 @@
+.tubuh {
+    background-color: grey;
+    width: max-content;
+    padding: 5px;
+}
+.tombol{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.tombol button {
+    padding: 20px 0;
+
+}
+
+.isi input{ 
+    padding: 7px 0;
+    background-color: green;        
+
+}
+
+.tombol button:nth-child(4),
+.tombol button:nth-child(8),
+.tombol button:nth-child(12)
+{
+    background-color: red;
+
+}
